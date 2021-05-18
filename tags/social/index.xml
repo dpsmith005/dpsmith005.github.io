@@ -15,8 +15,7 @@
       <guid>https://dpsmith005.github.io/about/</guid>
       <description>This is my about page. Add more detail
 for details about the Tranquil refer to the USer and Developer doc
-User - https://github.com/dpsmith005/Repo1Test/blob/main/user.mdDeveloper - https://github.com/dpsmith005/Repo1Test/blob/main/developer.mdAnd the site dochttps://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#headerin powershell run this command to add git to the path $env:PATH = $env:PATH + &amp;ldquo;;C:\Program Files\Git\cmd&amp;rdquo;
-run hugo to create the public folder set the path to include git $env:PATH = $env:PATH + &amp;ldquo;;C:\Program Files\Git\cmd&amp;rdquo; run the following git commands to from the public folder to push the web site cd C:\hugo\Sites\TranquilTest\public git init git add .</description>
+User - https://github.com/dpsmith005/Repo1Test/blob/main/user.mdDeveloper - https://github.com/dpsmith005/Repo1Test/blob/main/developer.mdAnd the site dochttps://github.</description>
     </item>
     
   </channel>
