@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>featured on David Smith Blog</title>
-    <link>http://dpsmith005.github.io/tags/featured/</link>
+    <link>https://dpsmith005.github.io/tags/featured/</link>
     <description>Recent content in featured on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 May 2021 15:33:48 -0400</lastBuildDate><atom:link href="http://dpsmith005.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 May 2021 15:33:48 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sample Code Block</title>
-      <link>http://dpsmith005.github.io/2021/05/sample-code-block/</link>
+      <link>https://dpsmith005.github.io/2021/05/sample-code-block/</link>
       <pubDate>Fri, 14 May 2021 15:33:48 -0400</pubDate>
       
-      <guid>http://dpsmith005.github.io/2021/05/sample-code-block/</guid>
+      <guid>https://dpsmith005.github.io/2021/05/sample-code-block/</guid>
       <description>below is a code sample
 # test powershell script Write-host &amp;#34;Hello World&amp;#34;; $service = Get-Service $service | select Name The above code should be in a block</description>
     </item>
     
     <item>
       <title>SCOM Events to Alerts</title>
-      <link>http://dpsmith005.github.io/2021/05/scom-events-to-alerts/</link>
+      <link>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</link>
       <pubDate>Thu, 13 May 2021 16:36:59 -0400</pubDate>
       
-      <guid>http://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
+      <guid>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
       <description>Insert Lead paragraph here. SCOM events to alerts
 Github SCOM alerts repository https://github.com/dpsmith005/SCOMAlerts
 ![Image]images/cover.png </description>
