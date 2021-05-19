@@ -19,11 +19,11 @@ marksdown code goes here </description>
     </item>
     
     <item>
-      <title>Sample Code Block</title>
-      <link>https://dpsmith005.github.io/2021/05/sample-code-block/</link>
+      <title>Sample Markdown Code</title>
+      <link>https://dpsmith005.github.io/2021/05/sample-markdown-code/</link>
       <pubDate>Wed, 12 May 2021 18:33:48 -0400</pubDate>
       
-      <guid>https://dpsmith005.github.io/2021/05/sample-code-block/</guid>
+      <guid>https://dpsmith005.github.io/2021/05/sample-markdown-code/</guid>
       <description>below is a code sample test 1 - Black and White
 # test powershell script no highlightsWrite-host &#34;Hello World&#34;;$service = Get-Service$service | select Namebelow is a code sample test 2 - using highlight
 # test powershell script Write-host &amp;#34;Hello World&amp;#34;; $process = Get-Process $process | select Name Powershell script display 3 - Powershell markdown
