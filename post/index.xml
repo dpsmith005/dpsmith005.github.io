@@ -6,11 +6,31 @@
     <description>Recent content in Posts on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 May 2021 19:38:54 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>https://dpsmith005.github.io/2021/05/welcome/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dpsmith005.github.io/2021/05/welcome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCOM Events to Alerts</title>
+      <link>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
+      <description>Insert Lead paragraph here. SCOM events to alerts
+Github SCOM alerts repository https://github.com/dpsmith005/SCOMAlerts
+marksdown code goes here </description>
+    </item>
+    
     <item>
       <title>Github Hugo Setup</title>
       <link>https://dpsmith005.github.io/2021/05/github-hugo-setup/</link>
-      <pubDate>Tue, 18 May 2021 19:38:54 -0400</pubDate>
+      <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/github-hugo-setup/</guid>
       <description>Insert Lead paragraph here.
@@ -24,36 +44,13 @@ Block quote</description>
     <item>
       <title>Sample Code Block</title>
       <link>https://dpsmith005.github.io/2021/05/sample-code-block/</link>
-      <pubDate>Fri, 14 May 2021 15:33:48 -0400</pubDate>
+      <pubDate>Wed, 12 May 2021 18:33:48 -0400</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/sample-code-block/</guid>
-      <description>below is a code sample
-# test powershell script no highlightsWrite-host &#34;Hello World&#34;;$service = Get-Service$service | select Name# test powershell script Write-host &amp;#34;Hello World&amp;#34;; $service = Get-Service $service | select Name The above code should be in a block</description>
-    </item>
-    
-    <item>
-      <title>SCOM Events to Alerts</title>
-      <link>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</link>
-      <pubDate>Thu, 13 May 2021 16:36:59 -0400</pubDate>
-      
-      <guid>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
-      <description>Insert Lead paragraph here. SCOM events to alerts
-Github SCOM alerts repository https://github.com/dpsmith005/SCOMAlerts
-marksdown code goes here </description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://dpsmith005.github.io/2021/05/welcome/</link>
-      <pubDate>Tue, 11 May 2021 19:07:11 -0400</pubDate>
-      
-      <guid>https://dpsmith005.github.io/2021/05/welcome/</guid>
-      <description>Welcome page
-for details about the TranquilPeak refer to the User and Developer doc
-  User - https://github.com/dpsmith005/Repo1Test/blob/main/user.md
-  Developer - https://github.com/dpsmith005/Repo1Test/blob/main/developer.md
-  And the site doc
- https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#header  </description>
+      <description>below is a code sample test 1 - Black and White
+# test powershell script no highlightsWrite-host &#34;Hello World&#34;;$service = Get-Service$service | select Namebelow is a code sample test 2 - using highlight
+# test powershell script Write-host &amp;#34;Hello World&amp;#34;; $process = Get-Process $process | select Name Powershell script display 3 - Powershell markdown
+&amp;lt;# comment block #&amp;gt; function test { return 99; } $x = 1 # Comment Write-host &amp;#34;This is a test $var&amp;#34; $string = &amp;#34;This is a test&amp;#34; $servie = Get-Service $service | format-table -autosize </description>
     </item>
     
   </channel>

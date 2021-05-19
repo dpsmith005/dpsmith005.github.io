@@ -6,29 +6,11 @@
     <description>Recent content in Tags on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 May 2021 19:38:54 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>configuration</title>
-      <link>https://dpsmith005.github.io/tags/configuration/</link>
-      <pubDate>Tue, 18 May 2021 19:38:54 -0400</pubDate>
-      
-      <guid>https://dpsmith005.github.io/tags/configuration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>setup</title>
-      <link>https://dpsmith005.github.io/tags/setup/</link>
-      <pubDate>Tue, 18 May 2021 19:38:54 -0400</pubDate>
-      
-      <guid>https://dpsmith005.github.io/tags/setup/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>social</title>
       <link>https://dpsmith005.github.io/tags/social/</link>
-      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/tags/social/</guid>
       <description></description>
@@ -37,7 +19,7 @@
     <item>
       <title>featured</title>
       <link>https://dpsmith005.github.io/tags/featured/</link>
-      <pubDate>Fri, 14 May 2021 15:33:48 -0400</pubDate>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/tags/featured/</guid>
       <description></description>
@@ -46,9 +28,27 @@
     <item>
       <title>SCOM</title>
       <link>https://dpsmith005.github.io/tags/scom/</link>
-      <pubDate>Fri, 14 May 2021 15:33:48 -0400</pubDate>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/tags/scom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>configuration</title>
+      <link>https://dpsmith005.github.io/tags/configuration/</link>
+      <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/tags/configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>setup</title>
+      <link>https://dpsmith005.github.io/tags/setup/</link>
+      <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/tags/setup/</guid>
       <description></description>
     </item>
     
