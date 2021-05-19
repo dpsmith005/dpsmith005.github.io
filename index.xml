@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Smith Blog</title>
-    <link>http://dpsmith005.github.io/</link>
+    <link>https://dpsmith005.github.io/</link>
     <description>Recent content on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 May 2021 19:38:54 -0400</lastBuildDate><atom:link href="http://dpsmith005.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 May 2021 19:38:54 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Hugo Setup</title>
-      <link>http://dpsmith005.github.io/2021/05/github-hugo-setup/</link>
+      <link>https://dpsmith005.github.io/2021/05/github-hugo-setup/</link>
       <pubDate>Tue, 18 May 2021 19:38:54 -0400</pubDate>
       
-      <guid>http://dpsmith005.github.io/2021/05/github-hugo-setup/</guid>
+      <guid>https://dpsmith005.github.io/2021/05/github-hugo-setup/</guid>
       <description>Insert Lead paragraph here.
 head1 head2 Head3 Head4 bold
 italic
@@ -23,10 +23,10 @@ Block quote</description>
     
     <item>
       <title>About David Smith</title>
-      <link>http://dpsmith005.github.io/about/</link>
+      <link>https://dpsmith005.github.io/about/</link>
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://dpsmith005.github.io/about/</guid>
+      <guid>https://dpsmith005.github.io/about/</guid>
       <description>This is my about page. Add more detail for details about the Tranquil refer to the USer and Developer doc
 User - https://github.com/dpsmith005/Repo1Test/blob/main/user.md
 Developer - https://github.com/dpsmith005/Repo1Test/blob/main/developer.md
@@ -39,10 +39,10 @@ https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.m
     
     <item>
       <title>Links page</title>
-      <link>http://dpsmith005.github.io/links/</link>
+      <link>https://dpsmith005.github.io/links/</link>
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://dpsmith005.github.io/links/</guid>
+      <guid>https://dpsmith005.github.io/links/</guid>
       <description>Links User - https://github.com/dpsmith005/Repo1Test/blob/main/user.md
 Developer - https://github.com/dpsmith005/Repo1Test/blob/main/developer.md
 User Doc for Tranquilpeak
@@ -52,20 +52,20 @@ Developer Doc for Tranquilpeak</description>
     
     <item>
       <title>Sample Code Block</title>
-      <link>http://dpsmith005.github.io/2021/05/sample-code-block/</link>
+      <link>https://dpsmith005.github.io/2021/05/sample-code-block/</link>
       <pubDate>Fri, 14 May 2021 15:33:48 -0400</pubDate>
       
-      <guid>http://dpsmith005.github.io/2021/05/sample-code-block/</guid>
+      <guid>https://dpsmith005.github.io/2021/05/sample-code-block/</guid>
       <description>below is a code sample
 # test powershell script no highlightsWrite-host &#34;Hello World&#34;;$service = Get-Service$service | select Name# test powershell script Write-host &amp;#34;Hello World&amp;#34;; $service = Get-Service $service | select Name The above code should be in a block</description>
     </item>
     
     <item>
       <title>SCOM Events to Alerts</title>
-      <link>http://dpsmith005.github.io/2021/05/scom-events-to-alerts/</link>
+      <link>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</link>
       <pubDate>Thu, 13 May 2021 16:36:59 -0400</pubDate>
       
-      <guid>http://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
+      <guid>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
       <description>Insert Lead paragraph here. SCOM events to alerts
 Github SCOM alerts repository https://github.com/dpsmith005/SCOMAlerts
 marksdown code goes here </description>
@@ -73,10 +73,10 @@ marksdown code goes here </description>
     
     <item>
       <title>Welcome</title>
-      <link>http://dpsmith005.github.io/2021/05/welcome/</link>
+      <link>https://dpsmith005.github.io/2021/05/welcome/</link>
       <pubDate>Tue, 11 May 2021 19:07:11 -0400</pubDate>
       
-      <guid>http://dpsmith005.github.io/2021/05/welcome/</guid>
+      <guid>https://dpsmith005.github.io/2021/05/welcome/</guid>
       <description>Welcome page
 for details about the TranquilPeak refer to the User and Developer doc
   User - https://github.com/dpsmith005/Repo1Test/blob/main/user.md
