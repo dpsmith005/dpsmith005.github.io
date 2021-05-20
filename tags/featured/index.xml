@@ -6,19 +6,7 @@
     <description>Recent content in featured on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SCOM Events to Alerts</title>
-      <link>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
-      <description>Insert Lead paragraph here. SCOM events to alerts
-Github SCOM alerts repository https://github.com/dpsmith005/SCOMAlerts
-marksdown code goes here Comments below - Testing Uterances
-</description>
-    </item>
-    
+    <lastBuildDate>Thu, 13 May 2021 19:38:54 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Hugo Setup</title>
       <link>https://dpsmith005.github.io/2021/05/github-hugo-setup/</link>

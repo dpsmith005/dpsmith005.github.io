@@ -26,24 +26,6 @@
     </item>
     
     <item>
-      <title>featured</title>
-      <link>https://dpsmith005.github.io/tags/featured/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dpsmith005.github.io/tags/featured/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SCOM</title>
-      <link>https://dpsmith005.github.io/tags/scom/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dpsmith005.github.io/tags/scom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>configuration</title>
       <link>https://dpsmith005.github.io/tags/configuration/</link>
       <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
@@ -53,11 +35,29 @@
     </item>
     
     <item>
+      <title>featured</title>
+      <link>https://dpsmith005.github.io/tags/featured/</link>
+      <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/tags/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>setup</title>
       <link>https://dpsmith005.github.io/tags/setup/</link>
       <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
       
       <guid>https://dpsmith005.github.io/tags/setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCOM</title>
+      <link>https://dpsmith005.github.io/tags/scom/</link>
+      <pubDate>Wed, 12 May 2021 18:33:48 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/tags/scom/</guid>
       <description></description>
     </item>
     
