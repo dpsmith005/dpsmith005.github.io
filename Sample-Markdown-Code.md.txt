@@ -1,0 +1,128 @@
+---
+title: "Sample Markdown Code"
+date: 2021-05-12T18:33:48-04:00
+featured: true
+featureImage: "/img/powershell-icon-15.jpg" # Sets featured image on blog post.
+thumbnailImage: true
+thumbnailImagePosition: right
+thumbnailImage: "/img/powershell-icon-12.jpg"
+autoThumbnailImage: true
+#coverImage: "/images/cover.jpg"
+shareImage: "/images/path/share.png" # Designate a separate image for social media sharing.
+codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
+codeLineNumbers: false # Override global value for showing of line numbers within code block.
+figurePositionShow: true # Override global value for showing the figure label.
+comments: false
+categories:
+  - Technology
+tags:
+  - SCOM
+  - markdown
+  - featured
+# comment: false # Disable comment if false.
+---
+<!--more-->
+<a href="/Sample-Markdown-Code.md.txt" target="_blank">RAW markdown file</a><br>
+
+This is some mardown examples I wanted to test.  I really wanted to find a way to place code in an html page.  below ares some samples, including a table of contents.  Take a look at the RAM markdown file to see the code that makes this page.
+
+<!-- TOC -->
+
+
+## Sample Code Blocks
+below is a code sample - Black and White
+
+### test1
+
+<pre class="r">
+# test powershell script no highlights
+Write-host "Hello World";
+$service = Get-Service
+$service | select Name
+</code></pre>
+
+below is a code sample - using highlight
+
+### test2
+
+{{< highlight go >}}
+# test powershell script
+Write-host "Hello World";
+$process = Get-Process
+$process | select Name
+{{< / highlight >}}
+
+### test3
+
+Powershell script display 3 - Powershell markdown
+```posh
+<# 
+comment block
+#>
+function test {
+	return 99;
+}
+
+$x = 1
+   # Comment
+   Write-host "This is a test $var"
+   $string = "This is a test"
+   $servie = Get-Service
+   $service | format-table -autosize
+```
+
+### Table of Contents 2 ###
+- [Sample Code Blocks](#sample-code-blocks)
+	- [Sample 1](#test1)
+	- [Sample 2](#test2)
+	- [Sample 3](#test3)	
+
+
+**Insert Lead paragraph here.**
+
+
+# head1 #
+
+## head2 ##
+
+### Head3 ###
+
+#### Head4 ####
+
+**bold**
+
+_italic_
+
+1. item1
+1. item2
+1. item3
+	1. item 3A
+	1. item 3B
+
+* one
+* two
+	* two A
+
+Table
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+~~strike through~~
+
+Block quote
+
+> one
+> two
+
+Test image 1
+![posh](/img/powershell-icon-9.jpg)
+
+Test image 2
+<img src="/images/showcase.png" alt="drawing" width="100"/>
+
+Test image 3
+![cover](/images/cover.jpg)
+	

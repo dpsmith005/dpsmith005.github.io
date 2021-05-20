@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dpsmith005.github.io/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dpsmith005.github.io/post/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dpsmith005.github.io/tags/social/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dpsmith005.github.io/tags/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dpsmith005.github.io/2021/05/welcome/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dpsmith005.github.io/about/</loc>
     <lastmod>2021-05-17T00:00:00+00:00</lastmod>
@@ -47,10 +47,16 @@
     <loc>https://dpsmith005.github.io/tags/configuration/</loc>
     <lastmod>2021-05-13T19:38:54-04:00</lastmod>
   </url><url>
+    <loc>https://dpsmith005.github.io/tags/github/</loc>
+    <lastmod>2021-05-13T19:38:54-04:00</lastmod>
+  </url><url>
     <loc>https://dpsmith005.github.io/categories/github/</loc>
     <lastmod>2021-05-13T19:38:54-04:00</lastmod>
   </url><url>
     <loc>https://dpsmith005.github.io/2021/05/github-hugo-setup/</loc>
+    <lastmod>2021-05-13T19:38:54-04:00</lastmod>
+  </url><url>
+    <loc>https://dpsmith005.github.io/tags/hugo/</loc>
     <lastmod>2021-05-13T19:38:54-04:00</lastmod>
   </url><url>
     <loc>https://dpsmith005.github.io/categories/hugo/</loc>
@@ -59,8 +65,8 @@
     <loc>https://dpsmith005.github.io/tags/setup/</loc>
     <lastmod>2021-05-13T19:38:54-04:00</lastmod>
   </url><url>
-    <loc>https://dpsmith005.github.io/categories/setup/</loc>
-    <lastmod>2021-05-13T19:38:54-04:00</lastmod>
+    <loc>https://dpsmith005.github.io/tags/markdown/</loc>
+    <lastmod>2021-05-12T18:33:48-04:00</lastmod>
   </url><url>
     <loc>https://dpsmith005.github.io/2021/05/sample-markdown-code/</loc>
     <lastmod>2021-05-12T18:33:48-04:00</lastmod>

@@ -6,11 +6,11 @@
     <description>Recent content in Tags on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>social</title>
       <link>https://dpsmith005.github.io/tags/social/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/tags/social/</guid>
       <description></description>
@@ -53,11 +53,38 @@
     </item>
     
     <item>
+      <title>Github</title>
+      <link>https://dpsmith005.github.io/tags/github/</link>
+      <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://dpsmith005.github.io/tags/hugo/</link>
+      <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>setup</title>
       <link>https://dpsmith005.github.io/tags/setup/</link>
       <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
       
       <guid>https://dpsmith005.github.io/tags/setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://dpsmith005.github.io/tags/markdown/</link>
+      <pubDate>Wed, 12 May 2021 18:33:48 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     

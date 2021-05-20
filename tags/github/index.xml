@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on David Smith Blog</title>
-    <link>https://dpsmith005.github.io/categories/hugo/</link>
-    <description>Recent content in Hugo on David Smith Blog</description>
+    <title>Github on David Smith Blog</title>
+    <link>https://dpsmith005.github.io/tags/github/</link>
+    <description>Recent content in Github on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 May 2021 19:38:54 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 May 2021 19:38:54 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Hugo Setup</title>
       <link>https://dpsmith005.github.io/2021/05/github-hugo-setup/</link>

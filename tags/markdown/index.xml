@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SCOM on David Smith Blog</title>
-    <link>https://dpsmith005.github.io/tags/scom/</link>
-    <description>Recent content in SCOM on David Smith Blog</description>
+    <title>markdown on David Smith Blog</title>
+    <link>https://dpsmith005.github.io/tags/markdown/</link>
+    <description>Recent content in markdown on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/scom/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SCOM Events to Alerts</title>
-      <link>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
-      <description>&lt;p&gt;More documentation about this and the supporting code will be available shortly.&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Wed, 12 May 2021 18:33:48 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sample Markdown Code</title>
       <link>https://dpsmith005.github.io/2021/05/sample-markdown-code/</link>

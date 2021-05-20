@@ -6,11 +6,11 @@
     <description>Recent content in social on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/social/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/social/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome</title>
       <link>https://dpsmith005.github.io/2021/05/welcome/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/welcome/</guid>
       <description></description>
@@ -22,12 +22,7 @@
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/about/</guid>
-      <description>This is my about page. Add more detail for details about the Tranquil refer to the USer and Developer doc
-User Doc for Tranquilpeak
-https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md
-Table of Contents - https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#display-table-of-contents
-Developer Doc for Tranquilpeak
-https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.md</description>
+      <description>I have been working in the technology field since 1986. I started when you programmed in C, not C++, C# or other object oriented languages. We wrote our own objects. Desktop computers had to be opened up to move jumper settings to configure the system. My first computer was a 286 with a 40 MB drive (that&amp;rsquo;s right Mega bytes)! The Desktops at the time had to add a special board that contained 2MB of RAM.</description>
     </item>
     
     <item>
@@ -36,10 +31,9 @@ https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.m
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/links/</guid>
-      <description>Links User - https://github.com/dpsmith005/Repo1Test/blob/main/user.md
-Developer - https://github.com/dpsmith005/Repo1Test/blob/main/developer.md
+      <description>Links Hugo Install
+Github Desktop
 User Doc for Tranquilpeak
-Table of Contents
 Developer Doc for Tranquilpeak</description>
     </item>
     

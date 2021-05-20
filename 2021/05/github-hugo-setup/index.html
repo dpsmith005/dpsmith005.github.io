@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.83.1 with theme Tranquilpeak 0.4.8-BETA">
 <meta name="author" content="David Smith">
-<meta name="keywords" content="tech, development, next-gen">
+<meta name="keywords" content=", development, next-gen">
 <meta name="description" content="Using Hugo to build a website and publish to Github">
 
 
@@ -35,8 +35,6 @@
     
       <meta property="article:section" content="Hugo">
     
-      <meta property="article:section" content="setup">
-    
   
   
     
@@ -45,6 +43,10 @@
       <meta property="article:tag" content="configuration">
     
       <meta property="article:tag" content="featured">
+    
+      <meta property="article:tag" content="Github">
+    
+      <meta property="article:tag" content="Hugo">
     
   
 
@@ -254,9 +256,7 @@
     
       <a class="category-link" href="https://dpsmith005.github.io/categories/github">Github</a>, 
     
-      <a class="category-link" href="https://dpsmith005.github.io/categories/hugo">Hugo</a>, 
-    
-      <a class="category-link" href="https://dpsmith005.github.io/categories/setup">setup</a>
+      <a class="category-link" href="https://dpsmith005.github.io/categories/hugo">Hugo</a>
     
   
 
@@ -266,74 +266,72 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p><strong>Insert Lead paragraph here.</strong></p>
-<h1 id="head1">head1</h1>
-<h2 id="head2">head2</h2>
-<h3 id="head3">Head3</h3>
-<h4 id="head4">Head4</h4>
-<p><strong>bold</strong></p>
-<p><em>italic</em></p>
-<ol>
-<li>item1</li>
-<li>item2</li>
-<li>item3
-<ol>
-<li>item 3A</li>
-<li>item 3B</li>
-</ol>
-</li>
-</ol>
-<ul>
-<li>one</li>
-<li>two
-<ul>
-<li>two A</li>
-</ul>
-</li>
-</ul>
-<p>Table</p>
-<table>
-<thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content from cell 1</td>
-<td>Content from cell 2</td>
-</tr>
-<tr>
-<td>Content in the first column</td>
-<td>Content in the second column</td>
-</tr>
-</tbody>
-</table>
-<p><del>strike through</del></p>
-<p>Block quote</p>
-<blockquote>
-<p>one
-two</p>
-</blockquote>
-<p>Powershell script display</p>
-<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-posh" data-lang="posh"><span style="color:#93a1a1;font-style:italic">&lt;# 
-</span><span style="color:#93a1a1;font-style:italic">comment block
-</span><span style="color:#93a1a1;font-style:italic">#&gt;</span>
-<span style="color:#859900">function</span> <span style="color:#268bd2">test</span> {
-	<span style="color:#859900">return</span> <span style="color:#268bd2">99</span>;
-}
-
-<span style="color:#268bd2">$x</span> = <span style="color:#268bd2">1</span>
-   <span style="color:#93a1a1;font-style:italic"># Comment</span>
-   <span style="color:#cb4b16">Write-host</span> <span style="color:#2aa198">&#34;This is a test $var&#34;</span>
-   <span style="color:#268bd2">$string</span> = <span style="color:#2aa198">&#34;This is a test&#34;</span>
-   <span style="color:#268bd2">$servie</span> = <span style="color:#cb4b16">Get-Service</span>
-   <span style="color:#268bd2">$service</span> | <span style="color:#cb4b16">format-table</span> <span style="color:#268bd2">-autosize</span>
-</code></pre></div><p><img src="https://dpsmith005.github.io/img/powershell-icon-9.jpg" alt="posh"></p>
-<img src="https://dpsmith005.github.io/images/showcase.png" alt="drawing" width="100"/>
-<p><img src="https://dpsmith005.github.io/images/cover.jpg" alt="cover"></p>
-
+              <p>More documentation about the Github and Hugo setup will be coming Soon</p>
+<p>Plain text</p>
+<pre><code>code
+sample
+</code></pre><p>My notes - elaborate</p>
+<p>install git powershell module - install-module git
+I actually use the Github desktop to keep my repos in sync.  This will work on multiple systems.
+<a href="https://desktop.github.com/">https://desktop.github.com/</a></p>
+<p>install hugo - choco install hugo -confirm
+install hugo extended - choco install hugo-extended -confirm
+<a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a> - downloaded windows zip file and extracted the files into a Hugo folder,  I set a path pointing to Hugo/bin to run the hugo.exe</p>
+<p>copy public file to published website repo
+copy build files to another repo to allow access from multiple systems.
+used mklink /J to have files stored on OneDrive.  I did not test this wiht the github desktop repo.  I simply copy files after I am done testing.
+mklink /J C:\LinkToFolder C:\Users\Name\OriginalFolder</p>
+<p>Created a github site - <a href="https://dpsmith005.github.io/">https://dpsmith005.github.io/</a>
+<a href="https://github.com/dpsmith005/">https://github.com/dpsmith005/</a>
+<a href="https://github.com/dpsmith005/dpsmith005.github.io/">https://github.com/dpsmith005/dpsmith005.github.io/</a>
+<a href="https://github.com/dpsmith005/SCOMAlertshttps://github.com/dpsmith005/SCOMAlerts">https://github.com/dpsmith005/SCOMAlertshttps://github.com/dpsmith005/SCOMAlerts</a></p>
+<h1 id="hugo">Hugo</h1>
+<p>Build web site
+hugo new site &lt;site_name&gt;
+hugo &ndash;config .\config.toml</p>
+<p>Run Hugo server
+hugo server
+hugo server -D  (includes draft pages)
+in a browser use localhost:1313</p>
+<p>in site folder create new file.  will be placed in content folder
+hugo new a.md
+hugo new dir1/b.md
+hugo new dir1/dir2/c.md</p>
+<p>Shortcuts video - <a href="https://www.youtube.com/watch?v=2xkNJL4gJ9E&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=9">https://www.youtube.com/watch?v=2xkNJL4gJ9E&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=9</a></p>
+<p>Download and install Github desktop
+<a href="https://desktop.github.com/">https://desktop.github.com/</a></p>
+<p>Tags and categories is a way to mark content in the web site
+<a href="https://www.youtube.com/watch?v=pCPCQgqC8RA&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=10">https://www.youtube.com/watch?v=pCPCQgqC8RA&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=10</a></p>
+<p>Github deployment
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a>
+<a href="https://gohugo.io/hosting-and-deployment/hugo-deploy/">https://gohugo.io/hosting-and-deployment/hugo-deploy/</a>
+<a href="https://github.com/marketplace/actions/hugo-setup">https://github.com/marketplace/actions/hugo-setup</a>
+<a href="https://github.com/marketplace/actions/github-pages-action">https://github.com/marketplace/actions/github-pages-action</a></p>
+<p>Other pages of interest
+<a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a></p>
+<p>in powershell run this command to add git to the path
+$env:PATH = $env:PATH + &ldquo;;C:\Program Files\Git\cmd&rdquo;</p>
+<p>run hugo to create the public folder
+set the path to include git $env:PATH = $env:PATH + &ldquo;;C:\Program Files\Git\cmd&rdquo;
+run the following git commands to from the public folder to push the web site
+cd C:\hugo\Sites\TranquilTest\public
+git init
+git add .
+git remote add origin <a href="https://github.com/dpsmith005/dpsmith005.github.io.git">https://github.com/dpsmith005/dpsmith005.github.io.git</a>
+If need to change user name and email
+git config &ndash;global &ndash;edit
+git commit &ndash;amend &ndash;reset-author
+git commit -m &ldquo;First commit&rdquo;
+git push origin main</p>
+<p>NEXT / PREVIOUS - I18N/en-us.yaml - changed to NEWER / OLDER</p>
+<p>Disqus comments
+use the parameter in config.toml disqusShortname 
+Disqus admin center link <a href="https://https-dpsmith005-github-io.disqus.com/admin/settings/general/">https://https-dpsmith005-github-io.disqus.com/admin/settings/general/</a>
+email account settings <a href="https://disqus.com/home/settings/account/">https://disqus.com/home/settings/account/</a>
+shortname found in the general tab of the admin center</p>
+<p>Utternaces comments
+install the app to your github repo.
+follow the configure and add the script code to &hellip;???</p>
               
             </div>
           </div>
@@ -351,6 +349,10 @@ two</p>
 
   <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/featured/">featured</a>
 
+  <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/github/">Github</a>
+
+  <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/hugo/">Hugo</a>
+
                   </div>
                 
               
@@ -365,14 +367,14 @@ two</p>
                 <a class="post-action-btn btn btn--default tooltip--top" href="https://dpsmith005.github.io/2021/05/scom-events-to-alerts/" data-tooltip="SCOM Events to Alerts">
               
                   <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEWER</span>
                 </a>
             </li>
             <li class="post-action">
               
                 <a class="post-action-btn btn btn--default tooltip--top" href="https://dpsmith005.github.io/2021/05/sample-markdown-code/" data-tooltip="Sample Markdown Code">
               
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <span class="hide-xs hide-sm text-small icon-mr">OLDER</span>
                   <i class="fa fa-angle-right"></i>
                 </a>
             </li>
@@ -451,14 +453,14 @@ two</p>
                 <a class="post-action-btn btn btn--default tooltip--top" href="https://dpsmith005.github.io/2021/05/scom-events-to-alerts/" data-tooltip="SCOM Events to Alerts">
               
                   <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEWER</span>
                 </a>
             </li>
             <li class="post-action">
               
                 <a class="post-action-btn btn btn--default tooltip--top" href="https://dpsmith005.github.io/2021/05/sample-markdown-code/" data-tooltip="Sample Markdown Code">
               
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <span class="hide-xs hide-sm text-small icon-mr">OLDER</span>
                   <i class="fa fa-angle-right"></i>
                 </a>
             </li>

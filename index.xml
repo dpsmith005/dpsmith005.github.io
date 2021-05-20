@@ -6,11 +6,11 @@
     <description>Recent content on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome</title>
       <link>https://dpsmith005.github.io/2021/05/welcome/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/welcome/</guid>
       <description></description>
@@ -22,12 +22,7 @@
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/about/</guid>
-      <description>This is my about page. Add more detail for details about the Tranquil refer to the USer and Developer doc
-User Doc for Tranquilpeak
-https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md
-Table of Contents - https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#display-table-of-contents
-Developer Doc for Tranquilpeak
-https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.md</description>
+      <description>I have been working in the technology field since 1986. I started when you programmed in C, not C++, C# or other object oriented languages. We wrote our own objects. Desktop computers had to be opened up to move jumper settings to configure the system. My first computer was a 286 with a 40 MB drive (that&amp;rsquo;s right Mega bytes)! The Desktops at the time had to add a special board that contained 2MB of RAM.</description>
     </item>
     
     <item>
@@ -36,10 +31,9 @@ https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.m
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/links/</guid>
-      <description>Links User - https://github.com/dpsmith005/Repo1Test/blob/main/user.md
-Developer - https://github.com/dpsmith005/Repo1Test/blob/main/developer.md
+      <description>Links Hugo Install
+Github Desktop
 User Doc for Tranquilpeak
-Table of Contents
 Developer Doc for Tranquilpeak</description>
     </item>
     
@@ -49,10 +43,7 @@ Developer Doc for Tranquilpeak</description>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
-      <description>Insert Lead paragraph here. SCOM events to alerts
-Github SCOM alerts repository https://github.com/dpsmith005/SCOMAlerts
-marksdown code goes here Comments below - Testing Uterances
-</description>
+      <description>&lt;p&gt;More documentation about this and the supporting code will be available shortly.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -61,12 +52,7 @@ marksdown code goes here Comments below - Testing Uterances
       <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/github-hugo-setup/</guid>
-      <description>Insert Lead paragraph here.
-head1 head2 Head3 Head4 bold
-italic
- item1 item2 item3  item 3A item 3B     one two  two A    Table
-   First Header Second Header     Content from cell 1 Content from cell 2   Content in the first column Content in the second column    strike through
-Block quote</description>
+      <description>&lt;p&gt;More documentation about the Github and Hugo setup will be coming Soon&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -75,10 +61,7 @@ Block quote</description>
       <pubDate>Wed, 12 May 2021 18:33:48 -0400</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/sample-markdown-code/</guid>
-      <description>below is a code sample test 1 - Black and White
-# test powershell script no highlightsWrite-host &#34;Hello World&#34;;$service = Get-Service$service | select Namebelow is a code sample test 2 - using highlight
-# test powershell script Write-host &amp;#34;Hello World&amp;#34;; $process = Get-Process $process | select Name Powershell script display 3 - Powershell markdown
-&amp;lt;# comment block #&amp;gt; function test { return 99; } $x = 1 # Comment Write-host &amp;#34;This is a test $var&amp;#34; $string = &amp;#34;This is a test&amp;#34; $servie = Get-Service $service | format-table -autosize </description>
+      <description>&lt;p&gt;This is some mardown examples I wanted to test.  I really wanted to find a way to place code in an html page.  below ares some samples, including a table of contents.  Take a look at the RAM markdown file to see the code that makes this page.&lt;/p&gt;</description>
     </item>
     
   </channel>

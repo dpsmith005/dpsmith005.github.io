@@ -13,10 +13,7 @@
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/scom-events-to-alerts/</guid>
-      <description>Insert Lead paragraph here. SCOM events to alerts
-Github SCOM alerts repository https://github.com/dpsmith005/SCOMAlerts
-marksdown code goes here Comments below - Testing Uterances
-</description>
+      <description>&lt;p&gt;More documentation about this and the supporting code will be available shortly.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -25,10 +22,7 @@ marksdown code goes here Comments below - Testing Uterances
       <pubDate>Wed, 12 May 2021 18:33:48 -0400</pubDate>
       
       <guid>https://dpsmith005.github.io/2021/05/sample-markdown-code/</guid>
-      <description>below is a code sample test 1 - Black and White
-# test powershell script no highlightsWrite-host &#34;Hello World&#34;;$service = Get-Service$service | select Namebelow is a code sample test 2 - using highlight
-# test powershell script Write-host &amp;#34;Hello World&amp;#34;; $process = Get-Process $process | select Name Powershell script display 3 - Powershell markdown
-&amp;lt;# comment block #&amp;gt; function test { return 99; } $x = 1 # Comment Write-host &amp;#34;This is a test $var&amp;#34; $string = &amp;#34;This is a test&amp;#34; $servie = Get-Service $service | format-table -autosize </description>
+      <description>&lt;p&gt;This is some mardown examples I wanted to test.  I really wanted to find a way to place code in an html page.  below ares some samples, including a table of contents.  Take a look at the RAM markdown file to see the code that makes this page.&lt;/p&gt;</description>
     </item>
     
   </channel>
