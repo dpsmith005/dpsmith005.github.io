@@ -38,15 +38,15 @@
   
   
     
+      <meta property="article:tag" content="Github">
+    
+      <meta property="article:tag" content="Hugo">
+    
       <meta property="article:tag" content="setup">
     
       <meta property="article:tag" content="configuration">
     
       <meta property="article:tag" content="featured">
-    
-      <meta property="article:tag" content="Github">
-    
-      <meta property="article:tag" content="Hugo">
     
   
 
@@ -59,8 +59,8 @@
 
 
 
-  <meta property="og:image" content="https://dpsmith005.github.io/images/showcase.png">
-  <meta property="twitter:image" content="https://dpsmith005.github.io/images/showcase.png">
+  <meta property="og:image" content="https://dpsmith005.github.io/images/hugoH2.jpg">
+  <meta property="twitter:image" content="https://dpsmith005.github.io/images/hugoH2.jpg">
 
 
 
@@ -266,72 +266,99 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>More documentation about the Github and Hugo setup will be coming Soon</p>
-<p>Plain text</p>
-<pre><code>code
-sample
-</code></pre><p>My notes - elaborate</p>
-<p>install git powershell module - install-module git
-I actually use the Github desktop to keep my repos in sync.  This will work on multiple systems.
-<a href="https://desktop.github.com/">https://desktop.github.com/</a></p>
-<p>install hugo - choco install hugo -confirm
-install hugo extended - choco install hugo-extended -confirm
-<a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a> - downloaded windows zip file and extracted the files into a Hugo folder,  I set a path pointing to Hugo/bin to run the hugo.exe</p>
-<p>copy public file to published website repo
-copy build files to another repo to allow access from multiple systems.
-used mklink /J to have files stored on OneDrive.  I did not test this wiht the github desktop repo.  I simply copy files after I am done testing.
-mklink /J C:\LinkToFolder C:\Users\Name\OriginalFolder</p>
-<p>Created a github site - <a href="https://dpsmith005.github.io/">https://dpsmith005.github.io/</a>
-<a href="https://github.com/dpsmith005/">https://github.com/dpsmith005/</a>
-<a href="https://github.com/dpsmith005/dpsmith005.github.io/">https://github.com/dpsmith005/dpsmith005.github.io/</a>
-<a href="https://github.com/dpsmith005/SCOMAlertshttps://github.com/dpsmith005/SCOMAlerts">https://github.com/dpsmith005/SCOMAlertshttps://github.com/dpsmith005/SCOMAlerts</a></p>
-<h1 id="hugo">Hugo</h1>
-<p>Build web site
-hugo new site &lt;site_name&gt;
-hugo &ndash;config .\config.toml</p>
-<p>Run Hugo server
-hugo server
-hugo server -D  (includes draft pages)
-in a browser use localhost:1313</p>
-<p>in site folder create new file.  will be placed in content folder
-hugo new a.md
-hugo new dir1/b.md
-hugo new dir1/dir2/c.md</p>
-<p>Shortcuts video - <a href="https://www.youtube.com/watch?v=2xkNJL4gJ9E&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=9">https://www.youtube.com/watch?v=2xkNJL4gJ9E&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=9</a></p>
-<p>Download and install Github desktop
-<a href="https://desktop.github.com/">https://desktop.github.com/</a></p>
-<p>Tags and categories is a way to mark content in the web site
-<a href="https://www.youtube.com/watch?v=pCPCQgqC8RA&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=10">https://www.youtube.com/watch?v=pCPCQgqC8RA&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=10</a></p>
-<p>Github deployment
-<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a>
-<a href="https://gohugo.io/hosting-and-deployment/hugo-deploy/">https://gohugo.io/hosting-and-deployment/hugo-deploy/</a>
-<a href="https://github.com/marketplace/actions/hugo-setup">https://github.com/marketplace/actions/hugo-setup</a>
-<a href="https://github.com/marketplace/actions/github-pages-action">https://github.com/marketplace/actions/github-pages-action</a></p>
-<p>Other pages of interest
-<a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a></p>
-<p>in powershell run this command to add git to the path
-$env:PATH = $env:PATH + &ldquo;;C:\Program Files\Git\cmd&rdquo;</p>
-<p>run hugo to create the public folder
-set the path to include git $env:PATH = $env:PATH + &ldquo;;C:\Program Files\Git\cmd&rdquo;
-run the following git commands to from the public folder to push the web site
-cd C:\hugo\Sites\TranquilTest\public
-git init
-git add .
-git remote add origin <a href="https://github.com/dpsmith005/dpsmith005.github.io.git">https://github.com/dpsmith005/dpsmith005.github.io.git</a>
-If need to change user name and email
-git config &ndash;global &ndash;edit
-git commit &ndash;amend &ndash;reset-author
-git commit -m &ldquo;First commit&rdquo;
-git push origin main</p>
-<p>NEXT / PREVIOUS - I18N/en-us.yaml - changed to NEWER / OLDER</p>
-<p>Disqus comments
-use the parameter in config.toml disqusShortname 
-Disqus admin center link <a href="https://https-dpsmith005-github-io.disqus.com/admin/settings/general/">https://https-dpsmith005-github-io.disqus.com/admin/settings/general/</a>
-email account settings <a href="https://disqus.com/home/settings/account/">https://disqus.com/home/settings/account/</a>
-shortname found in the general tab of the admin center</p>
-<p>Utternaces comments
-install the app to your github repo.
-follow the configure and add the script code to &hellip;???</p>
+              <p>To build my blog I decided to use Hugo and Github.  This was after looking at different options and talking to my friend Dale @ <a href="https://www.vcrocs.info/">vCROCS.info</a>.  This was his recommendation and how he built is blog site.  Check out his post about <a href="https://www.vcrocs.info/2020/04/hugo/">Hugo</a></p>
+<p><img src="https://dpsmith005.github.io/images/hugo2.jpg" alt="Hugo"></p>
+<p>To begin with I downloaded the Hugo product and installed it on my Windows 10 laptop.  I wanted to learn Hugo and build a web site before tackling Github.  I tested several different themes before settling on the Tranquilpeak theme.  This them worked best for my needs, but there are a lot of different <a href="https://themes.gohugo.io/">themes</a> on the <a href="https://gohugo.io/">Hugo</a> site.</p>
+<p>I downloaded the zip file and extracted the files into a Hugo folder.  I set the path pointing to Hugo\bin folder.  For this I created a simple bat file to run a set command for the path.  This will allow Hugo to run no matter what folder I am in when editing files in the website folders.</p>
+<pre><code>SET PATH = %PATH% + &quot;;C:\Hugo\bin&quot;
+</code></pre><p>To install Hugo was simple.  Download the zip file and place the files in the Hugo\bin folder.  Follow the <a href="https://gohugo.io/getting-started/installing/">Install Instructions</a> on the Hugo site.</p>
+<p>Here are a few simple Hugo command to get you started.  This is all well documented.
+From the Hugo\sites folder it is easy to create a new site by running the commands below.</p>
+<pre><code>hugo new site &lt;site_name&gt;
+cd &lt;site_name&gt;
+hugo --config .\config.toml
+hugo new Page1.md
+</code></pre><p>These commands will create all the folders, the config.toml, and a web post Page1.md.  This will be used to begin the build of your site. After you have some pages built for your site you are ready to test your website.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hugo server</td>
+<td>This will start the web server which can be accessed in a local browser at <strong>localhost:1313.</strong></td>
+</tr>
+<tr>
+<td>Hugo server -D</td>
+<td>This will display pages that are set to draft.</td>
+</tr>
+<tr>
+<td>Hugo</td>
+<td>This will build your site in the public folder.  This can be used to place on your web hosting site.</td>
+</tr>
+<tr>
+<td>Hugo new dir1/Page2.md</td>
+<td>This will create a markdown page in the folder dir1.</td>
+</tr>
+<tr>
+<td>Hugo new dir1/dir2/Page3.md</td>
+<td>This will create a markdown page in the folder dir1/dir2</td>
+</tr>
+</tbody>
+</table>
+<p>That is it for the Hugo install.  Next I read about markdown to get used to the syntax to do some simple formatting without using html.  I have some simple examples in my <a href="https://dpsmith005.github.io/2021/05/sample-markdown-code/">Sample Markdown</a> post.  Here is another link for a primary to <a href="	https://guides.github.com/features/mastering-markdown/">Markdown</a>.</p>
+<p>Now that the website is created we need a hosting site.  I chose Github for many reasons.  I spend time here getting resources others have provided.  This will also provide a space for me to upload, store, and present things I have done. Github allows hosting a website and there are no adds.  All of this for <strong>free</strong>.</p>
+<p>First I set up my site on <a href="https://pages.github.com/" target="_blank">Github.io</a>.  I chose to use the Github desktop.  It is really easy to use.  Just download the <a href="https://desktop.github.com/" target="_blank">Github Desktop</a> and install.</p>
+<p>I actually use the Github desktop to keep my repos in sync.  This will work on multiple systems.
+Download and install Github desktop.  After you Github account is setup and you have create the repository <user>.github.io, you have a repository that you can use for syncing.</p>
+<p>I created a second repository to store my website development in.  I keep my Hugo development files separate from my repositories, in case I make a mistake syncing from multiple locations.  I will always have my original code in a safe place.  I used junction links to get these files copied up to my OneDrive.  It sounds complicated, but it is really simple.  Let me explain what works for me.</p>
+<p>First I create C:\Hugo.  This is where all my website development files are located.  I do all my build and testing in this area.  To store this on my OneDrive I create a junction link with this command</p>
+<h5 id="syntax">Syntax</h5>
+<pre><code>mklink /J C:\LinkToTarget C:\Target
+</code></pre><h5 id="hugo-link">Hugo Link</h5>
+<pre><code>mklink /J C:\&lt;OneDrive_Folder&gt;\Hugo C:\Hugo
+</code></pre><p>This will create a junction link in my OneDrive folder to my Hugo folder.</p>
+<h5 id="github-link">Github Link</h5>
+<pre><code>mklink /J C:\&lt;OneDrive_Folder&gt;\Github C:\&lt;Github_Repository_Folder&gt;
+</code></pre><p>This will create a junction link in my OneDrive folder to my Github repository.</p>
+<p>These items are optional.  This is what I chose to do.</p>
+<p>Now the final step is to get the data into the repositories.  After I run Hugo and create the website in <strong>public</strong>, I copy these files to my website repository folder <name>.github.io.  Be sure to pull the files from the site before commiting and pushing the new website files.  I never make changes to anything in this repository directly.  After the first pull I don&rsquo;t bother with this step.  I know I only want the Hugo <strong>public</strong> files in this area.  By keeping the Hugo folder separate from my repositories I know I am safe if I make a mistake.  I can simply copy the <strong>public</strong> folder conents to this repository and push again.</p>
+<p>For the development files repository I created a <strong>.gitignore</strong> file.  This way I can copy the entire development website to this area.  The <strong>.gitignore</strong> will ignore the files/folders specified, preventing them from being copied to the repository.  I did not want the themes and public folders synced, so I ignored them.  This is a personal preference.</p>
+<p>DEV file <strong>.gitignore</strong> contains</p>
+<pre><code class="language-dos" data-lang="dos">themes
+public
+</code></pre><p>Now I was read to develop and publish my website.  I usually only code my dev files when I am finished for the day.  The website I will copy more often.  This is to make sure it displays the same in Gihub as it does with Hugo server.</p>
+<hr>
+<div align="center">
+  😄 ⛺ 🖕 🦚 👍 😃
+</div>
+<hr>
+<p><strong>Additional links for Hugo and Github setup</strong><br></p>
+<ul>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" target="_blank">Host on Github</a><br></li>
+<li><a href="https://gohugo.io/hosting-and-deployment/hugo-deploy/" target="_blank">Hugo Deploy</a><br></li>
+<li><a href="https://github.com/marketplace/actions/hugo-setup" target="_blank">Hugo setup</a><br></li>
+<li><a href="https://github.com/marketplace/actions/github-pages-action" target="_blank">Github Pages action</a><br></li>
+</ul>
+<p>Hugo tutorials <a href="https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3" target="_blank">Play List</a></p>
+<p>The one thing I did not like about the Tranquilpeak theme were the buttons for the post.  The are listed as <em><strong>NEXT</strong></em> and <em><strong>PREVIOUS</strong></em>.  I wnated it to show <em><strong>OLDER</strong></em> and <em><strong>NEWER</strong></em>.  To change this I needed to modify a file in the theme folder.  In this theme folder there is a folder <strong>i18n</strong>.  I modified the file <strong>en-us.yaml</strong>.  Look for the code:</p>
+<pre><code class="language-dos" data-lang="dos">- id: &quot;pagination.previous&quot;
+  translation: &quot;OLDER&quot;
+
+- id: &quot;pagination.next&quot;
+  translation: &quot;NEWER&quot;
+</code></pre><p>The original file contained <strong>NEXT</strong> and <strong>PREVIOUS</strong>.  I modified this to disply <strong>OLDER</strong> and <strong>NEWER</strong>.  If the theme is ever updated, this file will need to be changed after the update to retain the values you have choosen for moving between posts.</p>
+<p>The last item I wanted to address was comments.  I setup the Disqus comments since it was native to this theme.  Make sure you set the <strong>disqusShortname</strong> in the *<strong>config.tomal</strong> file before configuring Disqus.  I did not do this and now my short name is not so short.  Follow the instructions on the Disqus site to configure comments.  This is an optional step.</p>
+<p>Two links I found useful for Disqus are:</p>
+<ul>
+<li>Disqus admin center link https://<code>&lt;disqusShortname&gt;.disqus.com/admin/settings/general/</code></li>
+<li>email account settings <a href="https://disqus.com/home/settings/account/">https://disqus.com/home/settings/account/</a></li>
+</ul>
+<p>I looked at Utterances and installed the app on my Github repository.  I couldn&rsquo;t get this to work, so I continued with Disqus.  I only bring this up as an option if you do not want to use Disqus.</p>
+
               
             </div>
           </div>
@@ -343,15 +370,15 @@ follow the configure and add the script code to &hellip;???</p>
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">TAGGED IN</span><br/>
                     
+  <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/github/">Github</a>
+
+  <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/hugo/">Hugo</a>
+
   <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/setup/">setup</a>
 
   <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/configuration/">configuration</a>
 
   <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/featured/">featured</a>
-
-  <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/github/">Github</a>
-
-  <a class="tag tag--primary tag--small" href="https://dpsmith005.github.io/tags/hugo/">Hugo</a>
 
                   </div>
                 

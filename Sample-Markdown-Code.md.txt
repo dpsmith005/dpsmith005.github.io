@@ -21,10 +21,10 @@ tags:
   - featured
 # comment: false # Disable comment if false.
 ---
-<!--more-->
-<a href="/Sample-Markdown-Code.md.txt" target="_blank">RAW markdown file</a><br>
 
 This is some mardown examples I wanted to test.  I really wanted to find a way to place code in an html page.  below ares some samples, including a table of contents.  Take a look at the RAM markdown file to see the code that makes this page.
+<!--more-->
+<a href="/Sample-Markdown-Code.md.txt" target="_blank">RAW markdown file</a><br>
 
 <!-- TOC -->
 
@@ -116,6 +116,14 @@ Block quote
 
 > one
 > two
+
+Emojis (Add enableEmoji = true to your config.toml)
+
+:tent: 
+:peacock:
+:smiley: 
+
+For more info on <a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#table-of-contents" target="_blank">Emojis</a> 
 
 Test image 1
 ![posh](/img/powershell-icon-9.jpg)
