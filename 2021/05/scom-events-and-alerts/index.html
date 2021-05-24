@@ -23,10 +23,10 @@
 <meta property="og:locale" content="en-us">
 
   
-    <meta property="article:published_time" content="2021-05-15T00:00:00">
+    <meta property="article:published_time" content="2021-05-23T00:00:00">
   
   
-    <meta property="article:modified_time" content="2021-05-15T00:00:00">
+    <meta property="article:modified_time" content="2021-05-23T00:00:00">
   
   
   
@@ -235,9 +235,9 @@
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2021-05-15T00:00:00Z">
+      <time itemprop="datePublished" datetime="2021-05-23T00:00:00Z">
         
-  May 15, 2021
+  May 23, 2021
 
       </time>
     
@@ -256,24 +256,61 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>More documentation about this and the supporting code will be available shortly.</p>
-<p>I am in the process of learning Hugo and github.  After the website is in place I will begin to add content.</p>
-<p>This is a place marker for my first post of substance.</p>
-<p><strong>Insert Lead paragraph here.</strong></p>
-<p>Github SCOM alerts repository
-<a href="https://github.com/dpsmith005/SCOMAlerts">https://github.com/dpsmith005/SCOMAlerts</a></p>
-<div class="highlight"><pre style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">marksdown
-code
-goes here
-</code></pre></div><p>Comments below - Testing Uterances - Need to get this tested - currently using Disqus</p>
-<script src="https://utteranc.es/client.js"
-        repo="dpsmith005 / dpsmith005.github.io"
-        issue-term="title"
-        label="Utterances"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+              <h2 id="generate-scom-events-that-can-be-turned-into-alerts">Generate SCOM events that can be turned into alerts</h2>
+<p>This post contains the details about the application I wrote to generate events in SCOM.  This allows SCOM to receive events via the SDK and associate them with an object in SCOM.  The supported object types are Node, Windows, and Unix.  The command line parameters allow you to specify the event message along with other details.  Hopefully this post will help you download the necessary files and begin to generate events in SCOM.</p>
+<p>There is also a management pack and fragments that are used to turn the event to alerts in SCOM.  This was the only way I found to generate an alert in SCOM from the command line.</p>
+<p>Refer to the repository on Github at <a href="https://github.com/dpsmith005/SCOMAlerts">https://github.com/dpsmith005/SCOMAlerts</a></p>
+<p>Uploaded files contain a Readme.md and a README.TXT.  Refer to the README.txt for description of the files.  This can be downloaded with the others files and can be used as a reference.</p>
+<p>The files used to generate the SCOM events are:</p>
+<ul>
+<li>SCOMalerts.exe</li>
+<li>SCOMalerts.exe.config</li>
+<li>CommandLineUtility.dll</li>
+<li>CryptPassword.exe</li>
+<li>CryptPassword.dll</li>
+</ul>
+<p><strong>SCOMalerts.exe -help</strong> will give the command line parameters needed to generate the SCOM event.</p>
+<p><strong>SCOMalerts.exe.config</strong> needs to be confiigured for your environment.</p>
+<p><strong>CommandLineUtility.dll</strong> is used to handle command line parameters.</p>
+<p><strong>CryptPassowrd.exe</strong> is used to create the encrypted password to use with the scom admin account specified in the config file.</p>
+<p><strong>CryptPassword.dll</strong> is used by the CryptPassword.exe for creating the password</p>
+<h2 id="configure">Configure</h2>
+<p>The first thing to do is create a password file for the SCOM account used for the event creation.  CryptPassword.exe -e <password> will create a file <strong>enpw</strong>.  Rename this file.  This file is needed to configure the SCOMalerts.exe to run and connect to the SCOM management server.</p>
+<p>Next open the <strong>SCOMalerts.exe.config</strong> for editing.  This file containes the following information</p>
+<pre><code class="language-dos" data-lang="dos">		key=&quot;SCOMuser&quot; value=&quot;scom_admin_user&quot;
+		key=&quot;SCOMpasswd&quot; value=&quot;password.file&quot;
+		key=&quot;SCOMserver&quot; value=&quot;scomserver.domain.org&quot;
+		key=&quot;Domain&quot; value=&quot;domain.org&quot;
+		key=&quot;logfile&quot; value=&quot;.\SCOMalerts-log.txt&quot;
+		key=&quot;debug&quot; value=&quot;true&quot;/&gt;
+</code></pre><p><strong>SCOMuser</strong> is the user account that corresponds to the password that was created in the previous step.</p>
+<p><strong>SCOMpasswd</strong> is the password file created earlier.</p>
+<p><strong>SCOMServer</strong> is the management server fully qualified domain name.</p>
+<p><strong>Domain</strong> is the AD domain where the management server resides.</p>
+<p><strong>logfile</strong> is the location of the log file for debug and error messages to be written.</p>
+<p><strong>debug</strong> value is set to true or false.  This enables logging debug information to the logfile.</p>
+<p>Once this is configured the application is ready to test.</p>
+<h2 id="scomalertsexe--help">SCOMalerts.exe -help</h2>
+<pre><code class="language-dos" data-lang="dos">The Command Options are as Follows:
+    -help --help /help -? --? /? - will display the help message.
+    -svr    - FQDN of the server for the alert
+    -msg    - Alert detail to be displayed
+    -level  - 1, 2 4 (critical, Warning, Informational)
+    -eventNumber - 8100 for testing
+    -type   - is the server type.  Valid: Node, Windows, Unix.  Default or incorrect is Node
+
+ *the parameters are case sensitive.
+</code></pre><h2 id="test-event">Test Event</h2>
+<p>SCOMalerts -svr &lt;Server_generating_event&gt; -msg &ldquo;Test event message&rdquo; -level 4 -eventNumber 8800 -type Windows</p>
+<p>This should generate and event in SCOM with the information you specified.  Keep in mind this object needs to exist in SCOM.  Events will not be created in SCOM for objects that do not exist.</p>
+<h2 id="visual-studio-code">Visual Studio Code</h2>
+<p>Program.cs is the C# code used to create the application.</p>
+<p>I have included the the full VS code that was used to create this application.  The folder SCOMalertsVScode contains the code.  Simply download this folder to your VS repo and run the sln file to load he program.  You may need to point the referense to the dll&rsquo;s in the SCOMalerts\bin folder.  There a 4 standard SCOM dll&rsquo;s that should be installed if you have setup VSAE.  CommandLine.Utility.dll and CryptPassword.dll are libraries I created to assist this program.  I use this in other programs, that is why I made them libraries.</p>
+<h2 id="management-pack-for-alerts">Management Pack for Alerts</h2>
+<p>In order to turn the event into an alert, the event must have a rule to detect the event and generate an alert.  This MP takes advantage of this built-in functionality within SCOM.  In the MP folder there is a Custom.Event.Alert.xml file that is a self contained management pack.  Simply add this management pack to SCOM and check out the preconfigured rules.</p>
+<p>I have also included 3 management pack fragments for different node types.  The application contains a parameter type.  This type is used for the types of objects.  The 3 types I have configured are Node, Windows, and Unix.  Each fragment is designed to work with a specific object type.</p>
+<p>You could build your own rules.  To do this you need to create a rule that leverages the SDK event provider.</p>
+
               
             </div>
           </div>
