@@ -358,6 +358,18 @@ public
 <li>email account settings <a href="https://disqus.com/home/settings/account/">https://disqus.com/home/settings/account/</a></li>
 </ul>
 <p>I looked at Utterances and installed the app on my Github repository.  I couldn&rsquo;t get this to work, so I continued with Disqus.  I only bring this up as an option if you do not want to use Disqus.</p>
+<p>I did not like the advertisements with Disqus so I switched to Utterances.  I placed the code in the markdown file with a division around the code at the botom of the markdown.  To get it to work I created an issue in github for the post and the comments started to work.</p>
+<div>
+ 👍👎😄😕❤️🎉
+      <script src="https://utteranc.es/client.js"
+        repo="dpsmith005/dpsmith005.github.io"
+        issue-term="pathname"
+		label="Utterances"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
+</div>
 
               
             </div>
@@ -436,12 +448,6 @@ public
         
       
       
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
-      
       <li class="post-action">
         
           <a class="post-action-btn btn btn--default" href="#">
@@ -453,12 +459,6 @@ public
   
 </div>
 
-            
-              
-                <div id="disqus_thread">
-  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-              
             
           </div>
         </article>
@@ -521,12 +521,6 @@ public
           </li>
         
       
-      
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
       
       <li class="post-action">
         
@@ -652,30 +646,6 @@ $(document).ready(function() {
 </script>
 
 
-  
-    
-      <script>
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/dpsmith005.github.io\/2021\/05\/github-hugo-setup\/';
-          
-            this.page.identifier = '\/2021\/05\/github-hugo-setup\/'
-          
-        };
-        (function() {
-          
-          
-          if (window.location.hostname == "localhost") {
-            return;
-          }
-          var d = document, s = d.createElement('script');
-          var disqus_shortname = 'https-dpsmith005-github-io';
-          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-    
   
 
 
