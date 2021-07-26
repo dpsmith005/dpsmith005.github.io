@@ -257,7 +257,7 @@
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
               <h2 id="generate-scom-events-that-can-be-turned-into-alerts">Generate SCOM events that can be turned into alerts</h2>
-<p>This post contains the details about the application I wrote to generate events in SCOM.  This allows SCOM to receive events via the SDK and associate them with an object in SCOM.  The supported object types are Node, Windows, and Unix.  The command line parameters allow you to specify the event message along with other details.  Hopefully this post will help you download the necessary files and begin to generate events in SCOM.</p>
+<p>This post contains the details about the application I wrote to generate events in SCOM.  This allows SCOM to receive events via the SDK and associate them with an object in SCOM.  The supported object types are Node, Windows, and Unix.  Node refers to a network node type, not a cluster node.  The command line parameters allow you to specify the event message along with other details.  Hopefully this post will help you download the necessary files and begin to generate events in SCOM.</p>
 <p>There is also a management pack and fragments that are used to turn the event to alerts in SCOM.  This was the only way I found to generate an alert in SCOM from the command line.</p>
 <p>Refer to the repository on Github at <a href="https://github.com/dpsmith005/SCOMAlerts">https://github.com/dpsmith005/SCOMAlerts</a></p>
 <p>The uploaded files contain a Readme.md and a README.TXT.  Refer to the README.txt for description of the files.  This can be downloaded with the others files and can be used as a reference.</p>
@@ -297,7 +297,7 @@
     -msg    - Alert detail to be displayed
     -level  - 1, 2 4 (critical, Warning, Informational)
     -eventNumber - 8100 for testing
-    -type   - is the server type.  Valid: Node, Windows, Unix.  Default or incorrect is Node
+    -type   - is the server type.  Valid: Node, Windows, Unix.  Default or incorrect is Node (Network Node)
 
  *the parameters are case sensitive.
 </code></pre><h2 id="test-event">Test Event</h2>
@@ -308,9 +308,8 @@
 <p>I have included the the full VS code that was used to create this application.  The folder SCOMalertsVScode contains the code.  Simply download this folder to your VS repo and run the sln file to load he program.  You may need to point the referense to the dll&rsquo;s in the SCOMalerts\bin folder.  There a 4 standard SCOM dll&rsquo;s that should be installed if you have setup VSAE.  CommandLine.Utility.dll and CryptPassword.dll are libraries I created to assist this program.  I use this in other programs, that is why I made them libraries.</p>
 <h2 id="management-pack-for-alerts">Management Pack for Alerts</h2>
 <p>In order to turn the event into an alert, the event must have a rule to detect the event and generate an alert.  This MP takes advantage of this built-in functionality within SCOM.  In the MP folder there is a Custom.Event.Alert.xml file that is a self contained management pack.  Simply add this management pack to SCOM and check out the preconfigured rules.</p>
-<p>I have also included 3 management pack fragments for different node types.  The application contains a parameter type.  This type is used for the types of objects.  The 3 types I have configured are Node, Windows, and Unix.  Each fragment is designed to work with a specific object type.</p>
+<p>I have also included 3 management pack fragments for different node types.  The application contains a parameter type.  This type is used for the types of objects.  The 3 types I have configured are Node, Windows, and Unix.  Node refers to a network node type, not a cluster node.  Each fragment is designed to work with a specific object type.</p>
 <p>You could build your own rules.  To do this you need to create a rule that leverages the SDK event provider.</p>
-<h3 id="return-to-website-httpsdpsmith005githubio">return to website <a href="https://dpsmith005.github.io/">https://dpsmith005.github.io/</a></h3>
 <script src="https://utteranc.es/client.js"
         repo="dpsmith005/dpsmith005.github.io"
         issue-term="title"
