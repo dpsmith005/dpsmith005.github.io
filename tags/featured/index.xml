@@ -7,15 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jul 2021 11:00:22 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Netapp Management Pack for SCOM</title>
-      <link>https://dpsmith005.github.io/2021/07/netapp-management-pack-for-scom/</link>
-      <pubDate>Mon, 12 Jul 2021 11:00:22 -0400</pubDate>
-      
-      <guid>https://dpsmith005.github.io/2021/07/netapp-management-pack-for-scom/</guid>
-      <description>&lt;p&gt;This is the SCOM management pack I created to monitor Netapp volumes.  This is the first version with basic volume discovery and used space monitor.  I plan to add additional monitors and discoveries as time permits.&lt;/p&gt;</description>
-    </item>
-    
+
     <item>
       <title>SCOM Events and Alerts</title>
       <link>https://dpsmith005.github.io/2021/06/scom-events-and-alerts/</link>
