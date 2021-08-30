@@ -6,7 +6,16 @@
     <description>Recent content in Technology on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jul 2021 11:00:22 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 11:00:22 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCOM Power BI templates</title>
+      <link>https://dpsmith005.github.io/2021/08/scom-power-bi-templates/</link>
+      <pubDate>Tue, 10 Aug 2021 11:00:22 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/2021/08/scom-power-bi-templates/</guid>
+      <description>&lt;p&gt;SCOM Power BI Templates&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Netapp Management Pack for SCOM</title>
       <link>https://dpsmith005.github.io/2021/07/netapp-management-pack-for-scom/</link>

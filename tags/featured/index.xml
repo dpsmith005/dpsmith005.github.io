@@ -6,8 +6,7 @@
     <description>Recent content in featured on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jul 2021 11:00:22 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
-
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SCOM Events and Alerts</title>
       <link>https://dpsmith005.github.io/2021/06/scom-events-and-alerts/</link>
@@ -15,25 +14,6 @@
       
       <guid>https://dpsmith005.github.io/2021/06/scom-events-and-alerts/</guid>
       <description>Generate SCOM events that can be turned into alerts This post contains the details about the application I wrote to generate events in SCOM. This allows SCOM to receive events via the SDK and associate them with an object in SCOM. The supported object types are Node, Windows, and Unix. Node refers to a network node type, not a cluster node. The command line parameters allow you to specify the event message along with other details.</description>
-    </item>
-    
-    <item>
-      <title>Github Hugo Setup</title>
-      <link>https://dpsmith005.github.io/2021/05/github-hugo-setup/</link>
-      <pubDate>Thu, 13 May 2021 19:38:54 -0400</pubDate>
-      
-      <guid>https://dpsmith005.github.io/2021/05/github-hugo-setup/</guid>
-      <description>To build my blog I decided to use Hugo and Github. This was after looking at different options and talking to my friend Dale @ vCROCS.info. This was his recommendation and how he built his blog site. Check out his post about Hugo
-To begin with I downloaded the Hugo product and installed it on my Windows 10 laptop. I wanted to learn Hugo and build a web site before tackling Github.</description>
-    </item>
-    
-    <item>
-      <title>Sample Markdown Code</title>
-      <link>https://dpsmith005.github.io/2021/05/sample-markdown-code/</link>
-      <pubDate>Wed, 12 May 2021 18:33:48 -0400</pubDate>
-      
-      <guid>https://dpsmith005.github.io/2021/05/sample-markdown-code/</guid>
-      <description>&lt;p&gt;This is some mardown examples I wanted to test.  I really wanted to find a way to place code in an html page.  below ares some samples, including a table of contents.  Take a look at the RAM markdown file to see the code that makes this page.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,7 +6,16 @@
     <description>Recent content in SCOM on David Smith Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jul 2021 11:00:22 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/scom/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 11:00:22 -0400</lastBuildDate><atom:link href="https://dpsmith005.github.io/tags/scom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCOM Power BI templates</title>
+      <link>https://dpsmith005.github.io/2021/08/scom-power-bi-templates/</link>
+      <pubDate>Tue, 10 Aug 2021 11:00:22 -0400</pubDate>
+      
+      <guid>https://dpsmith005.github.io/2021/08/scom-power-bi-templates/</guid>
+      <description>&lt;p&gt;SCOM Power BI Templates&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Netapp Management Pack for SCOM</title>
       <link>https://dpsmith005.github.io/2021/07/netapp-management-pack-for-scom/</link>
@@ -23,15 +32,6 @@
       
       <guid>https://dpsmith005.github.io/2021/06/scom-events-and-alerts/</guid>
       <description>Generate SCOM events that can be turned into alerts This post contains the details about the application I wrote to generate events in SCOM. This allows SCOM to receive events via the SDK and associate them with an object in SCOM. The supported object types are Node, Windows, and Unix. Node refers to a network node type, not a cluster node. The command line parameters allow you to specify the event message along with other details.</description>
-    </item>
-    
-    <item>
-      <title>Sample Markdown Code</title>
-      <link>https://dpsmith005.github.io/2021/05/sample-markdown-code/</link>
-      <pubDate>Wed, 12 May 2021 18:33:48 -0400</pubDate>
-      
-      <guid>https://dpsmith005.github.io/2021/05/sample-markdown-code/</guid>
-      <description>&lt;p&gt;This is some mardown examples I wanted to test.  I really wanted to find a way to place code in an html page.  below ares some samples, including a table of contents.  Take a look at the RAM markdown file to see the code that makes this page.&lt;/p&gt;</description>
     </item>
     
   </channel>
